@@ -1,0 +1,72 @@
+@import url(../static/font/Lobster.zip);
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+color: inherit;
+text-decoration: none;
+}
+
+body{
+    background-color: #ccc;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #c2abab;
+    padding: 15px;
+    font-family: "Lobster", sans-serif;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+section{
+    margin-bottom: 15px;
+}
+
+section p{
+    text-indent: 20px;
+    padding-left: 10px;
+}
+
+.part1{
+    background-color: rgba(220, 195, 156, 0.652);
+}
+.part2{
+    background-color: rgba(43, 8, 8, 0.486);
+}
+.part3{
+    background-color: rgba(92, 153, 189, 0.776);
+}
+.part4{
+    background-color: rgba(193, 180, 192, 0.86);
+}
+.part5{
+    background-color: rgba(209, 181, 54, 0.568);
+}
+
+.menu { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+}
+
+section img {
+    width: 100%;
+}
+
+.fa-brands.fa-instagram{
+    font-size: 27px;
+}
